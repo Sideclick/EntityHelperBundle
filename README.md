@@ -25,7 +25,7 @@ public function registerBundles()
     );
 }
 ```
-## Features
+## Usage
 
 Entity helper classes should be defined in the /Entity/Helper directory, here is the basic structure of an Entity Helper class for an entity named 'User':
 

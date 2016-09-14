@@ -1,0 +1,17 @@
+services:
+#    sideclick_entity_helper.example:
+#        class: Sideclick\EntityHelperBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+
+# Register the get_entity_helper() custom twig function
+    sideclick_entity_helper.twig.sc_entity_helper_extension:
+        class: Sideclick\EntityHelperBundle\Twig\SideclickEntityHelperExtension
+        arguments: [@service_container]
+        tags:
+            - { name: twig.extension }
+
+    # Make the Entity Helper Factory available as a service so that we may easily get Entity Helper classes
+    # for any Entity
+    sideclick_entity_helper.entity_helper_factory:
+        class: Sideclick\EntityHelperBundle\Entity\Helper\Factory
+        arguments: ["@doctrine.orm.entity_manager", "@service_container"]

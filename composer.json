@@ -1,0 +1,17 @@
+{
+    "name": "sideclick/entity-helper-bundle",
+    "description": "Bundle for Symfony 2.6+ which introduces entity helper classes for each Doctrine entity in your bundle",
+    "type": "package",
+    "require": {
+        "php": ">=5.5",
+        "symfony/symfony": ">=2.6,~3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rowan Reid",
+            "email": "rreid@infology.net"
+        }
+    ],
+    "minimum-stability": "stable"
+}

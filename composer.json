@@ -13,5 +13,10 @@
             "email": "rreid@infology.net"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Sideclick\\CoreBundle\\": "src/"
+        }
+    }
 }

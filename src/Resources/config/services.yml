@@ -6,7 +6,7 @@ services:
 # Register the get_entity_helper() custom twig function
     sideclick_entity_helper.twig.sc_entity_helper_extension:
         class: Sideclick\EntityHelperBundle\Twig\SideclickEntityHelperExtension
-        arguments: [@service_container]
+        arguments: ["@service_container"]
         tags:
             - { name: twig.extension }
 

@@ -8,7 +8,7 @@ use Doctrine\ORM\EntityManager;
  *
  * All Entity Helper classes should extend this class and implement a setter method named set{EntityName}
  *
- * @package Sideclick\CoreBundle\Entity\Helper
+ * @package Sideclick\EntityHelperBundle\Entity\Helper
  */
 abstract class HelperAbstract
 {

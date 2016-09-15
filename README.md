@@ -9,6 +9,13 @@ Bundle for Symfony 2.6+ which introduces entity helper classes for each Doctrine
 "sideclick/entity-helper-bundle": "dev-master"
 ```
 
+OR just require the bundle from the commandline
+
+```
+composer require sideclick/entity-helper-bundle
+```
+
+
 ### Step 2: Enable the bundle
 
 Enable the bundle in the kernel:

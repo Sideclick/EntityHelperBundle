@@ -10,7 +10,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  * Registers a custom Twig function called get_entity_helper() which returns the Entity Helper object for the given
  * entity
  *
- * @package Sideclick\CoreBundle\Twig
+ * @package Sideclick\EntityHelperBundle\Twig
  */
 class SideclickEntityHelperExtension extends \Twig_Extension
 {

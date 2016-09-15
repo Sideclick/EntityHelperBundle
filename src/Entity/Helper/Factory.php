@@ -1,5 +1,5 @@
 <?php
-namespace Sideclick\CoreBundle\Entity\Helper;
+namespace Sideclick\EntityHelperBundle\Entity\Helper;
 
 use Doctrine\ORM\EntityManager;
 
@@ -8,7 +8,7 @@ use Doctrine\ORM\EntityManager;
  *
  * Facilitates the instantiation of the Entity Helper Class for a given Entity
  *
- * @package Sideclick\CoreBundle\Entity\Helper
+ * @package Sideclick\EntityHelperBundle\Entity\Helper
  */
 class Factory
 {

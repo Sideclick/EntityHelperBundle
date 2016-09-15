@@ -53,7 +53,7 @@ class UserHelper extends HelperAbstract
 There is a service named sc_core.entity_helper_factory which makes it easy to get an instance of an Entity Helper for an object, for example, in your controller you could do:
 
 ``` php
-$userHelper = $this->get('sc_core.entity_helper_factory')->getEntityHelper($user);
+$userHelper = $this->get('sideclick_entity_helper.twig.entity_helper_extension')->getEntityHelper($user);
 ```
 
 Also, there is a twig function to get a helper in your templates:

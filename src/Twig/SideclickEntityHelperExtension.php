@@ -36,7 +36,7 @@ class SideclickEntityHelperExtension extends \Twig_Extension
      * @return mixed
      */
     public function getEntityHelper($entity){
-        return $this->_serviceContainer->get('sc_core.entity_helper_factory')->getEntityHelper($entity);
+        return $this->_serviceContainer->get('sideclick_entity_helper.entity_helper_factory')->getEntityHelper($entity);
     }
 
 

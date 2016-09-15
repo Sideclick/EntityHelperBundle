@@ -27,16 +27,16 @@ public function registerBundles()
 ```
 ## Usage
 
-Entity helper classes should be defined in the /Entity/Helper directory, here is the basic structure of an Entity Helper class for an entity named 'User':
+Entity helper classes should be defined in the /Entity/Helper directory of your bundle, here is the basic structure of an Entity Helper class for an entity named 'User':
 
 ``` php
 <?php
-//Sideclick\CoreBundle\Entity\Helper\UserHelper.php
+//Xyz\YourBundle\Entity\Helper\UserHelper.php
 
-namespace Sideclick\CoreBundle\Entity\Helper;
+namespaceXyz\YourBundle\Entity\Helper;
 
-use Sideclick\CoreBundle\Entity\Helper\HelperAbstract;
-use Sideclick\CoreBundle\Entity\User;
+use Xyz\YourBundle\Entity\Helper\HelperAbstract;
+use Xyz\YourBundle\Entity\User;
 
 class UserHelper extends HelperAbstract
 {

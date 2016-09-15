@@ -1,5 +1,5 @@
 <?php
-namespace Sideclick\CoreBundle\Entity\Helper;
+namespace Sideclick\EntityHelperBundle\Entity\Helper;
 
 use Doctrine\ORM\EntityManager;
 
